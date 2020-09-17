@@ -1,0 +1,27 @@
+.Card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.Deck-cardarea {
+  margin-top: 80px;
+}
+
+.Deck-btn {
+  background: none;
+
+  outline: none;
+  font: inherit;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: #009688;
+  transition: 0.25s;
+}
+
+.Deck-btn:hover {
+  border-color: #4caf50;
+  color: white;
+  box-shader: inset 0 0 0 2em #4caf50;
+}

@@ -1,0 +1,76 @@
+.JokeList {
+  display: flex;
+  width: 80%;
+  height: 80%;
+
+  &-sidebar {
+    background: #9575cd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  }
+
+  &-title {
+    font-size: 4rem;
+    margin: 2rem;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.6rem;
+    &-span {
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+  }
+
+  &-sidebar {
+    img {
+      width: 50%;
+      border-radius: 50%;
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &-jokes {
+    height: 90%;
+    background: #fff;
+    align-self: center;
+    width: 70%;
+    overflow-y: scroll;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &-spinner {
+    color: white;
+    text-align: center;
+  }
+
+  &-getmore {
+    font-size: 1.5rem;
+    width: 50%;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    word-spacing: 1rem;
+    background: linear-gradient(
+      135deg,
+      rgba(179, 229, 252, 1) 0%,
+      rgba(179, 229, 252, 1) 50%,
+      rgba(240, 98, 146, 1) 50%,
+      rgba(240, 98, 146, 1) 100%
+    );
+    color: white;
+    cursor: pointer;
+    transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin: 2rem;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    }
+  }
+}

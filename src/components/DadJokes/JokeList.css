@@ -1,0 +1,91 @@
+.JokeList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+
+.JokeList-sidebar {
+  background: #9575cd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+}
+
+.JokeList-title {
+  font-size: 4rem;
+  margin: 2rem;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+}
+
+.JokeList-title-span {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.JokeList-sidebar img {
+  width: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.JokeList-jokes {
+  height: 90%;
+  background: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 70%;
+  overflow-y: scroll;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.JokeList-spinner {
+  color: white;
+  text-align: center;
+}
+
+.JokeList-getmore {
+  font-size: 1.5rem;
+  width: 50%;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  word-spacing: 1rem;
+  background: linear-gradient(135deg, #b3e5fc 0%, #b3e5fc 50%, #f06292 50%, #f06292 100%);
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin: 2rem;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.JokeList-getmore:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=JokeList.css.map */
